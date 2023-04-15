@@ -49,7 +49,7 @@ export const SendSolForm: FC = () => {
                 txSig ?
                     <div>
                         <p>View your transaction on </p>
-                        <a className={styles.link} href={link()} target='_blank'>Solana Explorer</a>
+                        <a className={styles.link} href={link()} target='_blank' rel="noreferrer">Solana Explorer</a>
                     </div> :
                     null
             }
