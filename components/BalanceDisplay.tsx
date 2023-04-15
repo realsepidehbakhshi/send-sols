@@ -17,7 +17,7 @@ export const BalanceDisplay: FC = () => {
 
     return (
         <div>
-            <p>{publicKey ? `Balance: ${balance / LAMPORTS_PER_SOL}` : ''}</p>
+             <p>{publicKey ? `Balance: ` : ''}<span style={{ fontWeight: 'bold', textDecoration: 'underline' ,color:'lightgreen' }}>{balance / LAMPORTS_PER_SOL}</span></p>
         </div>
     )
 }
