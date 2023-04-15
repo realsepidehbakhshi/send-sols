@@ -11,10 +11,11 @@ const Home: NextPage = (props) => {
   return (
     <div className={styles.App}>
       <Head>
-        <title>Wallet-Adapter Example</title>
+        <title>Send SOL</title>
+        <link rel="icon" href="/sol.ico" />
         <meta
           name="description"
-          content="Wallet-Adapter Example"
+          content="Send your sols"
         />
       </Head>
       <WalletContextProvider>
