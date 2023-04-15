@@ -37,7 +37,7 @@ export const SendSolForm: FC = () => {
                 publicKey ?
                     <form onSubmit={sendSol} className={styles.form}>
                         <label htmlFor="amount">Amount (in SOL) to send:</label>
-                        <input id="amount" type="text" className={styles.Field} placeholder="e.g. 0.1" required />
+                        <input id="amount" type="text" className={styles.formField} placeholder="e.g. 0.1" required />
                         <br />
                         <label htmlFor="recipient">Send SOL to:</label>
                         <input id="recipient" type="text" className={styles.formField} placeholder="e.g. 4Zw1fXuYuJhWhu9KLEYMhiPEiqcpKd6akw3WRZCv84HA" required />
