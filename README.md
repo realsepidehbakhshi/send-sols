@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+ <h1>Solana Wallet</h1>
+    <p>This is a simple Solana wallet application built using Next.js and Solana Web3.js library. The application allows users to connect their wallets and send SOL to other wallet addresses.</p>
+    <h2>Getting Started</h2>
+    <p>To get started with this project, follow the steps below:</p>
+    <ol>
+        <li>Clone the repository using the command: <code>git clone https://github.com/codescalper/send-sols.git</code></li>
+        <li>Navigate to the project directory using the command: <code>cd send-sols</code></li>
+        <li>Install the dependencies using the command: <code>npm install</code></li>
+        <li>Run the application using the command: <code>npm run dev</code></li>
+        <li>Visit http://localhost:3000 in your web browser to view the application.</li>
+    </ol>
+   
+   <h2>Tech Stack</h2>
+    <ul>
+      <li>React</li>
+      <li>@solana/wallet-adapter-react-ui</li>
+      <li>@solana/wallet-adapter-react</li>
+      <li>@solana/web3.js</li>
+      <li>Next.js</li>
+      <li>Node.js</li>
+      <li>TypeScript</li>
+      <li>CSS (using CSS modules)</li>
+    </ul>
+    
+   <h2>List of Wallets added</h2>
+    <ul> 
+      <li>Phantom Wallet</li> 
+      <li>Backpack Wallet</li> 
+    </ul>
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   <h2>Usage</h2>
+    <p>When you visit the application, you will see a header with a logo, a text "Send some SOLs" and a wallet connect button. Click on the wallet connect button to connect your wallet.</p>
+    <p>Once your wallet is connected, you will see your balance displayed on the screen. You can also send SOL to other wallet addresses using the "Send SOL" form. Simply enter the amount of SOL you want to send and the recipient wallet address, and click the "Send" button.</p>
+    <p>After you have sent SOL, you will receive a transaction signature (txSig) which you can use to track your transaction on the Solana Explorer. Simply click the link provided on the screen to view your transaction on the Solana Explorer.</p>
+    
+   <h2>Contributing</h2>
+    <p>If you would like to contribute to this project, feel free to create a pull request.</p>
